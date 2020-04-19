@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("../image/code.jpg");
+    /* background-color: #cccccc; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.main {
+    background: white;
+    padding: 45px;
+    border: 4px solid black;
+    filter: drop-shadow(10px 10px 10px grey);
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 4px;
+    background: transparent;
+    border-radius: 10%;
+    border: 1px black solid;
+    /* filter: drop-shadow(3px 1px 1px black); */
+}
+
+.textview {
+    margin: 5px;
+    border: transparent;
+    border: black solid 1.5px;
+    font-size: 25px;
+    background: transparent;
+    height: 40px;
+    width: 225px;
+    margin-left: 6px;
+    padding: 2px;
+}
+
+#equal_id {
+    border-radius: 5%;
+    width: 114px;
+}
+
+h1 {
+    padding: 5px;
+    border: 2px solid black;
+    background: rgb(224, 224, 224);
+    left: 18%;
+    top: -100px;
+    position: absolute;
+}
