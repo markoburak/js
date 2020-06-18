@@ -1,0 +1,55 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  background: #091921;
+}
+
+.traffic {
+  padding: 8px;
+  /* margin: 10px; */
+  border: solid 10px;
+  background: #1e3846;
+}
+
+.circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 46px;
+  margin: 5px;
+  background: #091921;
+  border: 3px solid black;
+}
+
+#circle_red:hover {
+  background: red;
+}
+
+#circle_yellow:hover {
+  background: yellow;
+}
+
+#circle_green:hover {
+  background: green;
+}
+
+button {
+  background: transparent;
+  background: white;
+  border: none;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.btn {
+  position: absolute;
+  top: 80%;
+}
+/*# sourceMappingURL=style.css.map */
